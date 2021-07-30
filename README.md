@@ -51,3 +51,5 @@ ffmpeg -ss 5.32 -i input.mp4 -c:v libx264 -c:a copy -frames:v 40 output.mp4
     + placebo
 * `-crf`:  
 此数值越大编码体积越小，画质损失越严重，0为编码毫无损失，但可能产生体积庞大的输出文件，推荐18-23  
+* `-tune`：  
+animation：优化动画的编码质量  
